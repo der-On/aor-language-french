@@ -55,6 +55,7 @@ module.exports = {
             created: 'Element wurde erstellt',
             deleted: 'Element wurde gelöscht',
             item_doesnt_exist: 'Das Element existiert nicht',
+            http_error: 'Server-Kommunikationsfehler',
         },
         validation: {
             required: 'Benötigt',
