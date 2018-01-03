@@ -32,8 +32,8 @@ module.exports = {
                 upload_single: 'Zum hochladen Datei hineinziehen oder hier klicken, um eine Datei auszuwählen.',
             },
             image: {
-                upload_several: 'Zum hochladen Dateien hinein ziehen oder hier klicken, um Dateien auszuwählen.',
-                upload_single: 'Zum hochladen Dateie hinein ziehen oder hier klicken, um eine Datei auszuwählen.',
+                upload_several: 'Zum hochladen Bilder hineinziehen oder hier klicken, um Bilder auszuwählen.',
+                upload_single: 'Zum hochladen Bild hineinziehen oder hier klicken, um eine Bild auszuwählen.',
             },
         },
         message: {
@@ -45,7 +45,7 @@ module.exports = {
         },
         navigation: {
             no_results: 'Keine Resultate gefunden',
-            page_out_of_boundaries: 'Die Seite %{page} liegt ausserhalb des gültigen Bereichts',
+            page_out_of_boundaries: 'Die Seite %{page} liegt ausserhalb des gültigen Bereichs',
             page_out_from_end: 'Letzte Seite',
             page_out_from_begin: 'Erste Seite',
             page_range_info: '%{offsetBegin}-%{offsetEnd} von %{total}',
