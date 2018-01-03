@@ -11,6 +11,7 @@ module.exports = {
             refresh: 'Aktualisieren',
             add_filter: 'Filter hinzufügen',
             remove_filter: 'Filter entfernen',
+            back: 'Zurück',
         },
         boolean: {
             true: 'Ja',
@@ -22,8 +23,14 @@ module.exports = {
             show: '%{name} #%{id}',
             create: '%{name} erstellen',
             delete: '%{name} #%{id} löschen',
+            dashboard: 'Dashboard',
+            not_found: 'Nicht gefunden',
         },
         input: {
+            file: {
+                upload_several: 'Zum hochladen Dateien hineinziehen oder hier klicken, um Dateien auszuwählen.',
+                upload_single: 'Zum hochladen Datei hineinziehen oder hier klicken, um eine Datei auszuwählen.',
+            },
             image: {
                 upload_several: 'Zum hochladen Dateien hinein ziehen oder hier klicken, um Dateien auszuwählen.',
                 upload_single: 'Zum hochladen Dateie hinein ziehen oder hier klicken, um eine Datei auszuwählen.',
@@ -34,8 +41,10 @@ module.exports = {
             no: 'Nein',
             are_you_sure: 'Bist du sicher?',
             about: 'Über',
+            not_found: 'Die Seite konnte nicht gefunden werden.',
         },
         navigation: {
+            no_results: 'Keine Resultate gefunden',
             page_out_of_boundaries: 'Die Seite %{page} liegt ausserhalb des gültigen Bereichts',
             page_out_from_end: 'Letzte Seite',
             page_out_from_begin: 'Erste Seite',
@@ -55,9 +64,16 @@ module.exports = {
             created: 'Element wurde erstellt',
             deleted: 'Element wurde gelöscht',
             item_doesnt_exist: 'Das Element existiert nicht',
+            http_error: 'Fehler beim Kommunizieren mit dem Server',
         },
         validation: {
             required: 'Benötigt',
+            minLength: 'Muss mindestens %{min} Zeichen lang sein',
+            maxLength: 'Darf maximal %{max} Zeichen lang sein',
+            minValue: 'Muss mindestens %{min} sein',
+            maxValue: 'Muss %{max} oder weniger sein',
+            number: 'Muss eine Nummer sein',
+            email: 'Muss eine gültige E-Mail sein',
         },
     },
 };
